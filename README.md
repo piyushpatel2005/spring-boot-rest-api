@@ -46,3 +46,16 @@ class AppCtrl {
 Create Spring Starter Project using IDE.
 
 To configure different application properties, we use application.properties. You can also search for resource on the internet with "Commong application properties"
+
+## Packaging and Deployment
+
+Go to project directory.
+
+```shell
+# Create JAR file
+mvn clean install
+# Run Spring Boot application
+java -jar target/course-api-0.0.1-SNAPSHOT.jar
+```
+
+Spring Actuator allows for monitoring production application.
